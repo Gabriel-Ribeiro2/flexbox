@@ -36,6 +36,11 @@
     color: rgb(0, 0, 0);
 }
 
+.dark-mode-toggle{
+    background-color: black;
+    color: white;
+}
+
 .sobre {
     border-top: 2px solid #ff5050;
     border-bottom: 2px solid #ff5050;
@@ -126,6 +131,11 @@
     background: #ff5050;
 }
 
+.newsletter-form button:hover {
+    background: #535353;
+    border: 4px solid #ff5050;
+}
+
 /*Footer*/
 
 .footer {
@@ -170,6 +180,11 @@ Começo do tema escuro*/
         color: rgb(0, 0, 0);
     }
     
+    .dark-mode-toggle{
+        background-color: white;
+        color: black;
+    }
+
     .sobre {
         border-top: 2px solid #ff5050;
         border-bottom: 2px solid #ff5050;
@@ -227,6 +242,7 @@ Começo do tema escuro*/
     
     .preco-item a {
         color: #ff5050;
+        background-color: white;
     }
 
     .preco-item a:hover {
@@ -269,6 +285,11 @@ Começo do tema escuro*/
     .footer p {
         color: #ffffff;
         width: bold;
+    }
+    
+    .newsletter-form button:hover {
+        background: #ffffff;
+        border: 4px solid #ff5050;
     }
     
  }
