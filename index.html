@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,87.5,300..800;1,87.5,300..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css">
+    <title>Site Flexbox</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/color.css">
+</head>
+
+<body>
+
+    <div class="superinfo-bg">
+        <div class="superinfo">
+            <p>Seg / Sábado - 08:00 ás 17:00</p>
+            <a href="tel:+5514123456789">14 12345-6789</a>
+            <p>R. Frei Galvão - Jardim Pedro Ometto, Jaú - SP, 17212-599</p>
+        </div>
+    </div>
+
+    <header class="menu-bg">
+        <div class="menu">
+            <div class="menu-logo">
+                <a href="#">Carros Legais</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#esportivos">Carros esportivos</a></li>
+                    <li><a href="#pesquisar">Pesquisar</a></li>
+                    <li><a href="#vendedor">Área do vendedor</a></li>
+                    <li><a href="#suporte">Suporte</a></li>
+                </ul>
+            </nav>
+            <div onclick="toggleDarkMode()" class="dark-mode-toggle">Dark Mode</div>
+        </div>
+    </header>
+
+    <!--Apresentação de vantagens-->
+    <div class="introducao"><h1>Vantagens ao possuir<br> um carro econômico</h1></div>
+    
+    <section class="sobre" id="sobre">
+        <div class="economico-info">
+            <h1>Sobre</h1>
+            <p> Um carro econômico é um veículo projetado para ter baixo
+                consumo de combustível e custos reduzidos de manutenção,
+                impostos e seguro. Esses carros são ideais para quem
+                busca praticidade e economia no dia a dia, 
+                especialmente em deslocamentos urbanos.
+            </p>
+            </div>
+        <div class="carrosimgs">
+            <img src="imgs/carroseconomicos.jpg" alt="Reabastecimento de carro">
+        </div>
+        <div class="carrosimgs">
+            <img src="imgs/carrodinheiro.jpg" alt="Painel de combustível">
+        </div>
+    </section>
+
+
+    <!--Seção de apresentação dos carros mais enconomicos-->
+    <section class="maiseconomicos" id="maiseconomicos">
+        <div class="maiseconomicos-logo"><h1>Carros econômicos mais econômicos no Brasil</h1></div>
+        <div class="maiseconomicos-container">
+            <div class="maiseconomicos-item bronze">
+                <h2>3°lugar</h2>
+                <img src="imgs/fiat-cronos.jpg" alt="Fiat Cronos">
+            </div>
+            <div class="maiseconomicos-item prata">
+                <h2>2°lugar</h2>
+                <img src="imgs/chevrolet-onix1.jpg" alt="Chevrolet Onix">
+            </div>
+            <div class="maiseconomicos-item ouro">
+                <h2>1°lugar</h2>
+                <img src="imgs/chevrolet-onix.jpg" alt="Chevrolet Onix Plus">
+            </div>
+        </div>
+    </section>
+
+    <!--Seção de preços-->
+    <section class="preco">
+        <div class="preco-item">
+            <h2>Fiat Cronos</h2>
+            <span><sup>R$</sup>98.990</span>
+            <ul>
+                <li>13,5 km/l na cidade com gasolina</li>
+                <li>16,6 km/l na estrada com gasolina</li>
+                <li>9,6 km/l na cidade com etanol</li>
+                <li>11,4 km/l na estrada com etanol</li>
+            </ul>
+            <a href="#">Comprar</a>
+        </div>
+        <div class="preco-item">
+            <h2>Chevrolet Onix</h2>
+            <span><sup>R$</sup>93.770</span>
+            <ul>
+                <li>13,8 km/l na cidade com gasolina</li>
+                <li>16,9 km/l na estrada com gasolina</li>
+                <li>9,6 km/l na cidade com etanol</li>
+                <li>11,9 km/l na estrada com etanol</li>
+                <li>Maior durabilidade</li>
+                <li>Mais conforto</li>
+            </ul>
+            <a href="#">Comprar</a>
+        </div>
+        <div class="preco-item">
+            <h2>Chevrolet Onix Plus</h2>
+            <span><sup>R$</sup>105.490</span>
+            <ul>
+                <li>13,9 km/l na cidade com gasolina</li>
+                <li>17,4 km/l na estrada com gasolina</li>
+                <li>9,7 km/l na cidade com etanol</li>
+                <li>12,4 km/l na estrada com etanol</li>
+                <li>Maior durabilidade</li>
+                <li>Mais conforto</li>
+                <li>Manutenção mais barata</li>
+                <li>Mais customização</li>
+            </ul>
+            <a href="#">Comprar</a>
+        </div>
+    </section>
+
+    <!--Seção de cards-->
+    <section class="cards">
+        <div class="card">
+            <img src="./imgs/Porsche 911.JPEG" alt="Imagem911">
+            <h3>1. Menor consumo de combustível</h3>
+            <p>Carros econômicos são projetados para consumir menos combustível,
+                proporcionando um excelente custo-benefício no dia a dia.
+                Modelos com motores menores e tecnologias como o start-stop 
+                (desligamento automático do motor em paradas) ajudam a reduzir
+                o consumo. Isso significa menos visitas
+                ao posto de gasolina e mais dinheiro no bolso a longo prazo.</p>
+        </div>
+        <div class="card">
+            <img src="./imgs/Panarema.JPEG" alt="ImagemPanarema">
+            <h3>2. Menor custo de manutenção
+            </h3>
+            <p>Os carros econômicos costumam ter mecânicas simples e 
+                confiáveis, o que reduz os custos com peças e serviços. 
+                Além disso, como são veículos populares, há uma grande 
+                oferta de peças no mercado, tornando a manutenção
+                mais acessível e facilitando o conserto em oficinas comuns.
+            </p>
+        </div>
+        <div class="card">
+            <img src="./imgs/Ford Mustang.JPEG" alt="ImagemMustang">
+            <h3>3. Menor valor do IPVA e seguro</h3>
+            <p>O IPVA (Imposto sobre a Propriedade de Veículos Automotores)
+                é calculado com base no valor do veículo. Como carros 
+                econômicos geralmente têm preços mais baixos, o imposto 
+                também é menor. O mesmo vale para o seguro: modelos com 
+                manutenção mais barata e menos propensos a roubos 
+                costumam ter apólices mais acessíveis.
+            </p>
+        </div>
+    </section>
+    <!--Seção de cards linha 2-->
+    <section class="cards">
+        <div class="card">
+            <img src="./imgs/AMG C63.jpg" alt="ImagemAMGC63">
+            <h3>4. Maior valorização na revenda</h3>
+            <p>Modelos econômicos são muito procurados no mercado de carros
+                usados, pois atendem um grande público que busca 
+                custo-benefício. Isso faz com que esses veículos 
+                desvalorizem menos com o tempo, garantindo um bom valor 
+                de revenda quando você decidir trocá-lo.
+            </p>
+        </div>
+        <div class="card">
+            <img src="./imgs/SUBARU BRZ.jpg" alt="ImagemSubaru">
+            <h3>5. Menos impacto ambiental</h3>
+            <p>Com menor consumo de combustível, os carros econômicos 
+                emitem menos CO₂ e outros poluentes no meio ambiente. 
+                Além disso, muitos modelos já utilizam tecnologias mais
+                limpas, como motores flex e sistemas híbridos, 
+                contribuindo para a redução da poluição.
+            </p>
+        </div>
+        <div class="card">
+            <img src="./imgs/BMW M3.JPEG" alt="ImagemBMW">
+            <h3>6. Boa mobilidade urbana
+            </h3>
+            <p>Por serem geralmente compactos, os carros econômicos 
+                são mais fáceis de estacionar e manobrar, 
+                principalmente em grandes cidades com trânsito intenso. 
+                Isso facilita o dia a dia e reduz o estresse ao dirigir 
+                em áreas movimentadas.
+            </p>
+        </div>
+    </section>
+
+    <!--NewsLetter-->
+    <section class="newsletter">
+    <div class="newsletter-info">
+        <h1>Newsletter</h1>
+        <p>Assine para ser notificado de promoções, notícias e muito mais sobre o mundo automotivo.</p>
+    </div> 
+    <form class="newsletter-info">
+        <input type="text" placeholder="Seu e-mail">
+        <button type="submit">Assinar</button>
+    </form>    
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <p>Carros legais © Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode')
+    }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+/*Começo do tema claro*/
+body {
+    background-color: #ffffff;
+}
+
+/*cores do super info*/
+.superinfo-bg {
+    background: rgb(252, 47, 47);
+    color: white;
+}
+
+
+.superinfo-bg .superinfo a{
+    color: white;
+}
+
+.superinfo-bg .superinfo a:hover{
+    color: rgb(0, 0, 0);
+}
+
+/*cores do menu*/
+.menu-bg {
+    background: #ff5050;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.sobre {
+    border-top: 2px solid #ff5050;
+    border-bottom: 2px solid #ff5050;
+}
+
+.economico-info p {
+    color: #2b2b2b;
+}
+
+
+/*Mais economicos*/
+.maiseconomicos-item h2 {
+    color: #a4a4a4;
+    background: #fafafa;
+}
+
+.bronze {
+    border-top: 8px solid #b86f2b;
+}
+
+.prata {
+    border-top: 8px solid #bdb5b5;
+}
+
+.ouro {
+    border-top: 8px solid #fffc39;
+}
