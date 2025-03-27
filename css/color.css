@@ -1,8 +1,13 @@
+:root{
 /*Começo do tema claro*/
-body {
-    background-color: #ffffff;
+--bg-color: #fff;
+--text-color: #000;
+    
+    body.dark-mode {
+        --bg-color: #161616;
+        --text-color: #ffffff;
 }
-
+}
 /*cores do super info*/
 .superinfo-bg {
     background: rgb(252, 47, 47);
@@ -44,7 +49,7 @@ body {
 /*Mais economicos*/
 .maiseconomicos-item h2 {
     color: #a4a4a4;
-    background: #fafafa;
+    background: #353535;
 }
 
 .bronze {
@@ -58,3 +63,212 @@ body {
 .ouro {
     border-top: 8px solid #fffc39;
 }
+
+/*Preço*/
+.preco {
+    background: #f7f7f7;
+}
+
+.preco-item {
+    border: 4px solid white;
+}
+
+.preco-item h2 {
+    color: #a4a4a4;
+}
+
+.preco-item span {
+    padding: 10px 0 5px 0; 
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.preco-item ul {
+    color: #7c7c7c;
+}
+
+.preco-item li::before {
+    background: #ff5050;
+}
+
+.preco-item a {
+    color: #ff5050;
+}
+
+.preco-item a:hover {
+    color: black;
+}
+
+.card {
+    background-color: #919191;
+    box-shadow: 0 2px 5px #161616
+}
+
+/*Newsletter*/
+
+.newsletter {
+    background: #9191;
+}
+
+.newsletter-info h1{
+    color: #a4a4a4
+}
+
+.newsletter-info p {
+    color: #7c7c7c;
+}
+
+.newsletter-form input {
+    border: 4px solid #ff5050;
+}
+
+.newsletter-form button {
+    background: #ff5050;
+}
+
+/*Footer*/
+
+.footer {
+    background: #ff5050;
+}
+
+.footer p {
+    color: white;
+    width: bold;
+}
+/*-----------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------
+Começo do tema escuro*/
+
+ body.dark-mode {
+    /*cores do super info*/
+    .superinfo-bg {
+        background: rgb(24, 24, 24);
+        color: white;
+    }
+    
+    
+    .superinfo-bg .superinfo a{
+        color: white;
+    }
+    
+    .superinfo-bg .superinfo a:hover{
+        color: rgb(0, 0, 0);
+    }
+    
+    /*cores do menu*/
+    .menu-bg {
+        background: #ff5050;
+    }
+    
+    .menu a {
+        color: white;
+    }
+    
+    .menu nav a:hover {
+        color: rgb(0, 0, 0);
+    }
+    
+    .sobre {
+        border-top: 2px solid #ff5050;
+        border-bottom: 2px solid #ff5050;
+    }
+    
+    .economico-info p {
+        color: #cfcfcf;
+    }
+    
+    
+    /*Mais economicos*/
+    .maiseconomicos-item h2 {
+        color: #ffffff;
+        background: #b8b8b8;
+    }
+    
+    .bronze {
+        border-top: 8px solid #b86f2b;
+    }
+    
+    .prata {
+        border-top: 8px solid #bdb5b5;
+    }
+    
+    .ouro {
+        border-top: 8px solid #fffc39;
+    }
+    
+    /*Preço*/
+    .preco {
+        background: #919191;
+    }
+    
+    .preco-item {
+        border: 4px solid #161616;
+    }
+    
+    .preco-item h2 {
+        color: white;
+    }
+    
+    .preco-item span {
+        padding: 10px 0 5px 0; 
+        border-top: 4px solid white;
+        border-bottom: 4px solid white;
+    }
+    
+    .preco-item ul {
+        color: white;
+    }
+    
+    .preco-item li::before {
+        background: #ff5050;
+    }
+    
+    .preco-item a {
+        color: #ff5050;
+    }
+
+    .preco-item a:hover {
+        color: rgb(0, 0, 0);
+    }
+    
+    .card {
+        background-color: #161616;
+        box-shadow: 0 2px 5px #f7f7f7
+    }
+    
+    /*Newsletter*/
+    
+    .newsletter {
+        background: #1f1f1f;
+    }
+    
+    .newsletter-info h1{
+        color: white;
+    }
+    
+    .newsletter-info p {
+        color: #7c7c7c;
+    }
+    
+    .newsletter-form input {
+        border: 4px solid #ff5050;
+    }
+    
+    .newsletter-form button {
+        background: #ff5050;
+    }
+    
+    /*Footer*/
+    
+    .footer {
+        background: #ff5050;
+    }
+    
+    .footer p {
+        color: #ffffff;
+        width: bold;
+    }
+    
+ }
